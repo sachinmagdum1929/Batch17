@@ -6,6 +6,10 @@ def sub(num1, num2):
     ans = num1 - num2
     return ans
 
+def mul(num1, num2):
+    ans = num1 * num2
+    return ans
+
 
 a = 100
 b = 20
@@ -14,3 +18,6 @@ print(f"Addition of {a} and {b} is {ans}")
 
 ans = sub(a,b)
 print(f"Subtraction of {a} and {b} is {ans}")
+
+ans = mul(a,b)
+print(f"Multiplication of {a} and {b} is {ans}")
